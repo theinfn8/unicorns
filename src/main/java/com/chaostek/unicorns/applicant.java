@@ -10,10 +10,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- *
- * @author chaosburn
- */
 public class applicant
 {
     private String fname, lname, email, reasons, unicornID;

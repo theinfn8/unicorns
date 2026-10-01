@@ -8,10 +8,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-/**
- *
- * @author chaosburn
- */
 public class unicornsCollection
 {
     public ArrayList<unicorn> unicorns;
@@ -19,7 +15,7 @@ public class unicornsCollection
     public unicornsCollection()
     {
         unicorns = new ArrayList<>();
-        
+        global.init();
     }
     
     public String loadSingle(int uid)

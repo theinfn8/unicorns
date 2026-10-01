@@ -3,10 +3,6 @@ package com.chaostek.unicorns;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author chaosburn
- */
 public class unicorn
 {
     int unicornID;

@@ -11,10 +11,6 @@ import java.util.TreeMap;
 import org.apache.commons.text.StringEscapeUtils;
 import org.json.JSONObject;
 
-/**
- *
- * @author chaosburn
- */
 public class top extends HttpServlet
 {
     /**
