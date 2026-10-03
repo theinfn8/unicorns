@@ -61,7 +61,7 @@ public class unicorn
         String cardHTML;
         
         cardHTML =
-"<div class=\"card\"><img src=\"../images/" + unicornID + "/" + imagePath + "\" alt=\"A Unicorn\" /><div class=\"cardtext\"><h4>" + name + "</h4><p>" + personality + "</p><p><a href=\"/unicorns/unicorn.jsp?id=" + unicornID + "\">Learn more about me!</a></p></div></div>";
+"<div class=\"card\"><img src=\"images/" + unicornID + "/" + imagePath + "\" alt=\"A Unicorn\" /><div class=\"cardtext\"><h4>" + name + "</h4><p>" + personality + "</p><p><a href=\"/unicorns/unicorn.jsp?id=" + unicornID + "\">Learn more about me!</a></p></div></div>";
         return cardHTML;
     }
 }

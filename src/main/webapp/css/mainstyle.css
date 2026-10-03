@@ -1,0 +1,203 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: White;
+    color: Black;
+}
+
+nav {
+    background-color: SkyBlue;
+    color: White;
+}
+
+footer {
+    width: 100%;
+    font-weight: lighter;
+    font-size: x-small;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 10px 10px;
+}
+
+.card {
+    flex-basis: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid Black;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+.cardtext {
+    padding: 2px 16px;
+    
+}
+
+.banner {
+    float: left;
+    background-color: SkyBlue;
+    color: White;
+    margin-bottom: 0.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.navmenu {
+    background-color: SkyBlue;
+    margin: 5px 5px 0px 5px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.navmenu img {
+    color: White;
+    margin: 5px 5px 5px 5px;
+    background-color: SkyBlue;
+}
+
+.navmenu div {
+    color: White;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin-right: 1rem;
+    background-color: SkyBlue;
+    align-self: flex-end;
+}
+
+.navmenu a.navimage {
+    color: White;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin-right: 1rem;
+    background-color: SkyBlue;
+    vertical-align: baseline;
+}
+
+.navmenu a.navitem {
+    color: White;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin-right: 1rem;
+    background-color: SkyBlue;
+    vertical-align: baseline;
+}
+
+.navmenu a.navitem:hover {
+    background-color: White;
+    color: Black;
+}
+
+.navmenu a.navactive {
+    background-color: White;
+    color: Black;
+}
+
+.biosection {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.biophoto {
+    margin: 5px 5px 5px 5px;
+    
+}
+
+.biotext {
+    flex: 2;
+    margin-right: 2rem;
+    padding: 5px 5px;
+}
+
+.bioname {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.bioheading {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#hero {
+    width: 100%;
+    height: 600px;
+    background-image:
+        linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),
+        url("../images/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-container {
+    max-width: 940px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+#hero .hero-container {
+    display: flex;
+    align-items: center;
+    height: 600px;
+}
+
+.hero-text {
+    max-width: 470px;
+    background-color: transparent;
+}
+
+.hero-text .hero-slug {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #FFFFFF;
+    background-color: transparent;
+    line-height: 1;
+}
+
+.hero-text .hero-title {
+    font-size: 2.5rem;
+    margin: 20px 0px;
+    font-weight: normal;
+    color: #FFFFFF;
+    background-color: transparent;
+    line-height: 1;
+}
+
+.btn-primary {
+    font-weight: 400;
+    font-size: 18px;
+    background: SkyBlue;
+    color: White;
+    padding: 12px 22px;
+    text-decoration: none;
+    border: none;
+}

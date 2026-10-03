@@ -35,11 +35,11 @@ public class top extends HttpServlet
         try
         {
             String r = unicorns.loadTop3();
-            
+
             outMap.put("card1", unicorns.unicorns.get(0).getCard());
             outMap.put("card2", unicorns.unicorns.get(1).getCard());
             outMap.put("card3", unicorns.unicorns.get(2).getCard());
-            
+
             response.setContentType("application/json");
             jsonMap = new JSONObject(outMap);
             String output = jsonMap.toString();

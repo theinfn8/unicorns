@@ -11,20 +11,20 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/mainstyle.css" />
-        <link rel="stylesheet" href="/css/over.css" />
-        <script src="/js/overlay.js"></script>
+        <link rel="stylesheet" href="css/mainstyle.css" />
+        <link rel="stylesheet" href="css/over.css" />
+        <script src="js/overlay.js"></script>
         <title>Ada's Awesome Adoptions | Unicorn</title>
     </head>
     <body>
         <nav>
             <div class="navmenu">
-                <div><a href="../index.html" class="navimage"><img src="../images/logo-xxsmall.png" /></a></div>
-                <div><a href="../index.html" class="navitem">Main</a></div>
-                <div><a href="/unicorns/listing.jsp" class="navitem">Unicorn Listing</a></div>
-                <div><a href="../mission.html" class="navitem">Mission Statement</a></div>
-                <div><a href="../about.html" class="navitem">About Us</a></div>
-                <div><a href="../faq.html" class="navitem">FAQ</a></div>
+                <div><a href="index.html" class="navimage"><img src="../images/logo-xxsmall.png" /></a></div>
+                <div><a href="index.html" class="navitem">Main</a></div>
+                <div><a href="listing.jsp" class="navitem">Unicorn Listing</a></div>
+                <div><a href="mission.html" class="navitem">Mission Statement</a></div>
+                <div><a href="about.html" class="navitem">About Us</a></div>
+                <div><a href="faq.html" class="navitem">FAQ</a></div>
             </div>
         </nav>
         <main>

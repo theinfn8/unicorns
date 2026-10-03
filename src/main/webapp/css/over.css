@@ -1,0 +1,56 @@
+#overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #87CEEB90;
+    z-index: 2;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#overlay div {
+    background-color: #87CEEB90;
+
+}
+
+#overlay form {
+    background-color: #87CEEB90;
+
+}
+
+label {
+    background-color: #87CEEB90;
+
+}
+
+.close {
+    font-size: 2em;
+    font-weight: 600;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+input[type=text] {
+    margin: 5px;
+    border: 2px solid White;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input[type=email] {
+    margin: 5px;
+    border: 2px solid White;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+textarea {
+    margin: 5px;
+    border: 2px solid White;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
